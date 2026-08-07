@@ -1,0 +1,35 @@
+:root {
+  /* Color system */
+  --color-ivory: #f4f2ed;
+  --color-paper: #faf9f6;
+  --color-sand: #d7d0c6;
+  --color-tile: #eae5dc; /* product image tile background */
+  --color-taupe: #a79c90;
+  --color-charcoal: #242321;
+  --color-charcoal-soft: #2c2b28;
+  --color-ink: #171716;
+  --color-muted: #77736c;
+  --color-line: rgba(36, 35, 33, 0.18);
+  --color-line-light: rgba(255, 255, 255, 0.22);
+  --color-white: #ffffff;
+  --color-heart: #8a3a32;
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+
+  /* Layout */
+  --header-h: 62px;
+  --header-h-scrolled: 52px;
+  --gutter: 16px;
+  --container-max: 1440px;
+  --container: min(calc(100% - (var(--gutter) * 2)), var(--container-max));
+
+  /* Motion */
+  --t-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-dur: 0.6s;
+
+  /* Elevation */
+  --shadow-soft: 0 16px 40px -20px rgba(23, 23, 22, 0.35);
+  --shadow-card: 0 12px 28px -18px rgba(23, 23, 22, 0.45);
+}
